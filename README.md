@@ -1,4 +1,4 @@
-Team Members:-
+Team Members
 
 | Name                        | UB Number | UB Email             | 
 |:-----                       |:--------: |------:               |
