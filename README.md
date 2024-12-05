@@ -23,28 +23,69 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 -->
 
 
-### a. The Questions Listed for Each Team Member
+### I. The Questions Listed for Each Team Member
 
-- **Anchal Daga:** [List the question related to this team member]
-- **Keerthana Vangala:** [List the question related to this team member]
-- **Grace Evangelene Avula Lael:** [List the question related to this team member]
-- **Sharanya Nallapeddi:** [List the question related to this team member]
 
-### b. The Information of Where the Experiment Code Associated with Each Question Is Located
+## **Anchal Daga**
+### **Question 1:**
 
-- **Anchal Daga's Question Code Location:** [File name or line number in the notebook]
-- **Keerthana Vangala's Question Code Location:** [File name or line number in the notebook]
-- **Grace Evangelene Avula Lael's Question Code Location:** [File name or line number in the notebook]
-- **Sharanya Nallapeddi's Question Code Location:** [File name or line number in the notebook]
 
-### c. The Analysis of the Question is Located
+### **Hypothesis 1:**
 
-- **Anchal Daga's Analysis Location:** [File name or line number in the notebook]
-- **Keerthana Vangala's Analysis Location:** [File name or line number in the notebook]
-- **Grace Evangelene Avula Lael's Analysis Location:** [File name or line number in the notebook]
-- **Sharanya Nallapeddi's Analysis Location:** [File name or line number in the notebook]
 
-### d. The Folder Structure Information
+### **Hypothesis 2:**
+
+
+---
+## **Keerthana Vangala**
+### **Question 2:**
+
+
+### **Hypothesis 1:**
+
+
+### **Hypothesis 2:**
+
+---
+## **Grace Evangelene Avula Lael**
+### **Question 3:**
+How does the combination of immunization coverage (BCG, HepB3, Pol3), literacy rates, and low birthweight contribute to variations in neonatal and infant health outcomes (such as neonatal mortality and stillbirth rates) across different regions?
+
+### **Hypothesis 1:**
+Higher immunization coverage (BCG, HepB3, Pol3) is associated with lower neonatal mortality and stillbirth rates in regions with higher literacy rates, suggesting that better health education and access to vaccines contribute to improved neonatal health outcomes.
+
+### **Hypothesis 2:**
+Regions with lower prevalence of low birthweight babies will exhibit lower neonatal mortality and stillbirth rates, indicating that maternal nutrition and healthcare interventions to prevent low birthweight play a critical role in improving infant health outcomes.
+
+---
+
+## **Sharanya Nallapeddi**
+### **Question 4:**
+How do crude birth and death rates, life expectancy, and low-birthweight rates correlate with infant mortality and stillbirth rates across different regions and years?
+
+### **Hypothesis 1:**
+- **Birth Rate Dynamics and Mortality:**  
+Regions with extremely high or low crude birth rates show higher infant mortality and stillbirth rates, indicating population stress or resource constraints.
+
+### **Hypothesis 2:**
+- **Yearly Trends:**  
+Over time, regions show a decline in infant mortality rates and neonatal mortality-to-birth rate ratios, correlating with improvements in life expectancy and a reduction in low-birthweight babies.
+
+### II. The Information of Where the Experiment Code Associated with Each Question Is Located
+
+- **Question 1 Code Location:** [File name or line number in the notebook]
+- **Question 2 Code Location:** [File name or line number in the notebook]
+- **Question 3 Code Location:** [File name or line number in the notebook]
+- **Question 4 Code Location:** [File name or line number in the notebook]
+
+### III. The Analysis of the Question is Located
+
+- **Question 1 Analysis Location:** [File name or line number in the notebook]
+- **Question 2 Analysis Location:** [File name or line number in the notebook]
+- **Question 3 Analysis Location:** [File name or line number in the notebook]
+- **Question 4 Analysis Location:** [File name or line number in the notebook]
+
+### IV. The Folder Structure Information
 
 - **app/** contains all the app code
 - **exp/** contains all the ipynb code
@@ -52,6 +93,6 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 - **data/** contains the raw and cleaned data files
 - **docs/** contains the project documentation and additional resources
 
-### e. The Instructions to Build the App from Source Code
+### V. The Instructions to Build the App from Source Code
 
-1. Clone the repository to your local machine:
+1. 
