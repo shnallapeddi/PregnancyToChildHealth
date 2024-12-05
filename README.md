@@ -64,11 +64,9 @@ Regions with lower prevalence of low birthweight babies will exhibit lower neona
 How do crude birth and death rates, life expectancy, and low-birthweight rates correlate with infant mortality and stillbirth rates across different regions and years?
 
 ### **Hypothesis 1:**
-- **Birth Rate Dynamics and Mortality:**  
 Regions with extremely high or low crude birth rates show higher infant mortality and stillbirth rates, indicating population stress or resource constraints.
 
-### **Hypothesis 2:**
-- **Yearly Trends:**  
+### **Hypothesis 2:** 
 Over time, regions show a decline in infant mortality rates and neonatal mortality-to-birth rate ratios, correlating with improvements in life expectancy and a reduction in low-birthweight babies.
 
 ### II. The Information of Where the Experiment Code Associated with Each Question Is Located
