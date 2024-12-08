@@ -30,21 +30,11 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 ### **Question 1:**
 
 
-### **Hypothesis 1:**
-
-
-### **Hypothesis 2:**
-
-
 ---
 ## **Keerthana Vangala**
 ### **Question 2:**
 
 
-### **Hypothesis 1:**
-
-
-### **Hypothesis 2:**
 
 ---
 ## **Grace Evangelene Avula Lael**
