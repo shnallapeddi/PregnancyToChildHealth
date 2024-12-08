@@ -83,5 +83,7 @@ How do crude birth and death rates, life expectancy, and low-birthweight rates c
 "streamlit run HealthFlow.py"
 
 Note: 1.Please change the database connection details with your database details in the python file.
-2. Install additional libraries if necessary.
+2. Install additional python libraries if necessary which are not installed on the system: 
+for instance: "python -m pip show plotly"
+
 
