@@ -51,23 +51,12 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 ### **Question 3:**
 How does the combination of immunization coverage (BCG, HepB3, Pol3), literacy rates, and low birthweight contribute to variations in neonatal and infant health outcomes (such as neonatal mortality and stillbirth rates) across different regions?
 
-### **Hypothesis 1:**
-Higher immunization coverage (BCG, HepB3, Pol3) is associated with lower neonatal mortality and stillbirth rates in regions with higher literacy rates, suggesting that better health education and access to vaccines contribute to improved neonatal health outcomes.
-
-### **Hypothesis 2:**
-Regions with lower prevalence of low birthweight babies will exhibit lower neonatal mortality and stillbirth rates, indicating that maternal nutrition and healthcare interventions to prevent low birthweight play a critical role in improving infant health outcomes.
-
 ---
 
 ## **Sharanya Nallapeddi**
 ### **Question 4:**
 How do crude birth and death rates, life expectancy, and low-birthweight rates correlate with infant mortality and stillbirth rates across different regions and years?
 
-### **Hypothesis 1:**
-Regions with extremely high or low crude birth rates show higher infant mortality and stillbirth rates, indicating population stress or resource constraints.
-
-### **Hypothesis 2:** 
-Over time, regions show a decline in infant mortality rates and neonatal mortality-to-birth rate ratios, correlating with improvements in life expectancy and a reduction in low-birthweight babies.
 
 ### II. The Information of Where the Experiment Code Associated with Each Question Is Located
 
