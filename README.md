@@ -28,12 +28,12 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 
 ## **Anchal Daga**
 ### **Question 1:**
-
+How do healthcare system factors, such as the number of healthcare professionals, hospital bed capacity, and literacy among healthcare workers, influence maternal and general mortality rates?
 
 ---
 ## **Keerthana Vangala**
 ### **Question 2:**
-
+How do factors such as skilled health staff attendance during births and maternal health conditions (e.g., anaemia, hypertension, or tobacco use) influence neonatal and infant mortality rates?
 
 
 ---
@@ -65,11 +65,23 @@ How do crude birth and death rates, life expectancy, and low-birthweight rates c
 ### IV. The Folder Structure Information
 
 - **app/** contains all the app code
-- **exp/** contains all the ipynb code
+- **exp/** contains final version of the previous python notebook code
 - **exp/results/** contains the experiment results
 - **data/** contains the raw and cleaned data files
 - **docs/** contains the project documentation and additional resources
 
 ### V. The Instructions to Build the App from Source Code
 
-1. 
+1. Download and install the appropriate version of MySQL Server, MySQL Installer and MySQL workbenchfor your system.(Set a root password for MySQL workbench during setup and note it)
+2. Launch sql and connect to our local MySQL server.
+3. Create database, create schema of the table and load data from the csvfile() into a table.(Code in present in the location with name)
+4. Install python
+5. install streamlit in command prompt using the below code:
+"pip install streamlit"
+6. We have created a python file for streamlit ("HealthFlow" present at location).
+7. Go to the location of the file in command prompt and run the file using command:
+"streamlit run HealthFlow.py"
+
+Note: 1.Please change the database connection details with your database details in the python file.
+2. Install additional libraries if necessary.
+
