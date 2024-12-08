@@ -73,7 +73,7 @@ How do crude birth and death rates, life expectancy, and low-birthweight rates c
 ### V. The Instructions to Build the App from Source Code
 
 1. Download and install the appropriate version of MySQL Server, MySQL Installer and MySQL workbenchfor your system.(Set a root password for MySQL workbench during setup and note it)
-2. Launch sql and connect to our local MySQL server.
+2. Launch sql and connect to local MySQL server.
 3. Create database, create schema of the table and load data from the csvfile() into a table.(Code in present in the location with name)
 4. Install python
 5. install streamlit in command prompt using the below code:
