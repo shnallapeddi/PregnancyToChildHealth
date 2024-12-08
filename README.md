@@ -81,15 +81,16 @@ How do crude birth and death rates, life expectancy, and low-birthweight rates c
 
 1. Download and install the appropriate version of MySQL Server, MySQL Installer and MySQL workbenchfor your system.(Set a root password for MySQL workbench during setup and note it)
 2. Launch sql and connect to local MySQL server.
-3. Create database, create schema of the table and load data from the csvfile() into a table.(Code in present in the location with name)
+3. Create database, create schema of the table and load data from the csvfile() into a table.(Code in present in the location: "50609480_50604773_50595809_50593866/app/Phase 3 Script.sql" with name: Phase 3 Script.sql)
 4. Install python
 5. install streamlit in command prompt using the below code:
 "pip install streamlit"
-6. We have created a python file for streamlit ("HealthFlow" present at location).
+6. We have created a python file for streamlit ("HealthFlow" present at location: "50609480_50604773_50595809_50593866/app/HealthFlow.py").
 7. Go to the location of the file in command prompt and run the file using command:
 "streamlit run HealthFlow.py"
 
-Note: 1.Please change the database connection details with your database details in the python file.
+Note: 
+1.Please change the database connection details with your database details in the python file.
 2. Install additional python libraries if necessary which are not installed on the system: 
 for instance: "python -m pip show plotly"
 
