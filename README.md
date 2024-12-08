@@ -52,21 +52,25 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 
 ### V. The Instructions to Build the App from Source Code
 
-1. Download and install the appropriate version of MySQL Server, MySQL Installer and MySQL workbench for your system.(Set a root password for MySQL workbench during setup and note it down)
-2. Launch sql and connect to local MySQL server.
-3. Create schema of the table and load data from the csvfile(phase3_processed.csv, location: CSV File Imported into MySQL Database:) into a table.(Code is present in the location: "50609480_50604773_50595809_50593866/app/Phase 3 Script.sql" with name: Phase 3 Script.sql)
-4. Install python
-5. install streamlit in command prompt using the below code:
-"pip install streamlit"
-6. We have created a python file for hosting on streamlit.(File name: "HealthFlow" is present at location: "50609480_50604773_50595809_50593866/app/HealthFlow.py").
-7. 
-8. Go to the location of the file in command prompt and run the file using command:
-"streamlit run HealthFlow.py"
+1. Download and install the correct version of MySQL Server, MySQL Installer, and MySQL Workbench for your operating system. During setup, set a root password for MySQL Workbench and make a note of it.
+2. Open MySQL and connect to the local MySQL server.
+3. Create the table schema and load data from the CSV file (phase3_processed.csv) into a table. The file can be found at: CSV File Imported into MySQL Database:. Use the script provided in the following location: "50609480_50604773_50595809_50593866/app/Phase 3 Script.sql", named Phase 3 Script.sql.
+4. Install the latest version of Python if possible, and install all the required libraries mentioned below:
+  a. streamlit
+  b. pandas
+  c. mysql-connector
+  d. sklearn
+  e. plotly
+  f.base64 
+5. Verify the MySQL connection by using the provided file: 50609480_50604773_50595809_50593866/app/MySQL Connection.ipynb.
+6. After verification, launch the application using the Python file compatible with the backend. The file, named "HealthFlow.py", is located at: "50609480_50604773_50595809_50593866/app/HealthFlow.py".
+7. To set a background image for the user interface, use the file path "50609480_50604773_50595809_50593866/app/DIC.jpg" in the HealthFlow.py file.
+8. Navigate to the file location in the command prompt and run the application using the command:
+
+streamlit run path/to/HealthFlow.py
 
 Note: 
+Please change the database connection details with your database details in the python file.
 
-1.Please change the database connection details with your database details in the python file.
-2. Install additional python libraries if necessary which are not installed on the system: 
-for instance: "python -m pip show plotly"
 
 
