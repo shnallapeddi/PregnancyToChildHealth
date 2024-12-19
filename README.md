@@ -1,7 +1,7 @@
 # Topic: Leveraging health data to predict infant survival and wellbeing from pregnancy to early childhood.
+## The application empowers users to derive insights from healthcare data, run predictive analyses, and contribute new data entries. By integrating machine learning and user-friendly visualizations, the platform supports healthcare organizations, policymakers, and researchers in addressing critical maternal and infant health challenges globally.
 
-Team Members
-
+# Team Members
 | Name                        | UB Number | UB Email             | 
 |:-----                       |:--------: |------:               |
 | Anchal Daga                 | 50609480  | anchalda@buffalo.edu |
@@ -9,19 +9,14 @@ Team Members
 | Grace Evangelene Avula Lael | 50595809  | graceeva@buffalo.edu |
 | Sharanya Nallapeddi         | 50593866  | snallape@buffalo.edu |
 
-# Project Details
+# Highlights 
+1. Data-Driven Insights: Analyze trends and correlations in global health metrics.
+2. User Engagement: Empower users to add, update, and explore data for continuous learning.
+3. Predictive Modeling: Utilize our machine learning models to predict health outcomes based on user-provided data.
+4. The application provides several machine learning models, including Random Forest Regressor, XGBoost, Polynomial Regression, and LightGBM. These models analyze various health indicators to predict outcomes such as neonatal mortality, maternal mortality, and birth-death ratios. Users can select relevant columns for analysis, and the app trains and evaluates models using metrics like Mean Squared Error (MSE) and R-squared scores.
+5. Customizable Filters: Visualize and study health data by region, year, and demographic categories.
 
-## Path of the Files
-- **Main File for Phase 3:** `50609480_50604773_50595809_50593866/app/HealthFlow.py`
-- **Background Image of the UI:** `50609480_50604773_50595809_50593866/app/DIC.jpg`
-- **MySQL Script File to Run:** `50609480_50604773_50595809_50593866/app/Phase 3 Script.sql`
-- **File to Check the Backend MySQL Connection:** `50609480_50604773_50595809_50593866/app/MySQL Connection.ipynb`
-- **CSV File Imported into MySQL Database:** `50609480_50604773_50595809_50593866/app/phase3_processed.csv`
-
-# Highlights
-
-
-## Key Research Questions and Hypotheses
+### Questions and it's relevant Hypotheses
 
 | S.N. | Question                                                                                                                                                   | Name of the Student Who Worked on the Questions | Hypothesis       | Algorithm                  | Visualization    | Experiment Code Location | Analysis Location |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|------------------|---------------------------|------------------|--------------------------|-------------------|
@@ -35,7 +30,14 @@ Team Members
 | 4    | How do crude birth and death rates, life expectancy, and low-birthweight rates correlate with infant mortality and stillbirth rates across different regions and years? | Sharanya Nallapeddi                            | Hypothesis 1     | RandomForestRegressor      | 3D Surface Plot  | Line 1359                | Line 1451         |
 |      |                                                                                                                                                           |                                                | Hypothesis 2     | RandomForestRegressor      | 3D Line Plot      | Line 1462                | Line 1546         |
 
-### V. The Instructions to Build the App from Source Code
+## Path of the Files
+- **Main File for Phase 3:** `50609480_50604773_50595809_50593866/app/HealthFlow.py`
+- **Background Image of the UI:** `50609480_50604773_50595809_50593866/app/DIC.jpg`
+- **MySQL Script File to Run:** `50609480_50604773_50595809_50593866/app/Phase 3 Script.sql`
+- **File to Check the Backend MySQL Connection:** `50609480_50604773_50595809_50593866/app/MySQL Connection.ipynb`
+- **CSV File Imported into MySQL Database:** `50609480_50604773_50595809_50593866/app/phase3_processed.csv`
+
+### Instructions to Build the App from Source Code
 
 1. Download and install the correct version of MySQL Server, MySQL Installer, and MySQL Workbench for your operating system. During setup, set a root password for MySQL Workbench and make a note of it.
 2. Open MySQL and connect to the local MySQL server.
@@ -51,10 +53,9 @@ Team Members
 6. After verification, launch the application using the Python file compatible with the backend. The file, named "HealthFlow.py", is located at: "50609480_50604773_50595809_50593866/app/HealthFlow.py".
 7. To set a background image for the user interface, use the file path "50609480_50604773_50595809_50593866/app/DIC.jpg" in the HealthFlow.py file.
 8. Navigate to the file location in the command prompt and run the application using the command:
+   streamlit run path/to/HealthFlow.py
 
-streamlit run path/to/HealthFlow.py
-
-Note: 
+### Note: 
 Please change the database connection details with your database details in the python file.
 
 
