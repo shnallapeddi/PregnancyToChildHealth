@@ -1,3 +1,5 @@
+# Topic: Leveraging health data to predict infant survival and wellbeing from pregnancy to early childhood.
+
 Team Members
 
 | Name                        | UB Number | UB Email             | 
@@ -6,21 +8,6 @@ Team Members
 | Keerthana Vangala           | 50604773  | kvangala@buffalo.edu |
 | Grace Evangelene Avula Lael | 50595809  | graceeva@buffalo.edu |
 | Sharanya Nallapeddi         | 50593866  | snallape@buffalo.edu |
-
-<!--
-Topic of Project: Leveraging health data to predict infant survival and wellbeing from pregnancy to early childhood.
-
-Note: To distinguish between phases 1, 2, and 3, we have renamed the files accordingly. The file titled "Raw_Data_Updated" is our initial dataset which is used across all the phases. 
-
-Phase 1:
-Main File: Main_phase1.ipynb
-We conducted exploratory data analysis (EDA) separately using the "feature_engineering" CSV and XLS files. These files represent the Excel sheet created after all data cleaning steps were completed.
-
-Phase 2:
-The data cleaning process was refined in Phase 2 to enhance accuracy and improve the dataset quality.
-The file cleaned_dataset_rounded_off.csv is used as the input for data loading.
-Individual .ipynb files labeled with "phase2" have been uploaded.
--->
 
 # Project Details
 
@@ -31,7 +18,8 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 - **File to Check the Backend MySQL Connection:** `50609480_50604773_50595809_50593866/app/MySQL Connection.ipynb`
 - **CSV File Imported into MySQL Database:** `50609480_50604773_50595809_50593866/app/phase3_processed.csv`
 
----
+# Highlights
+
 
 ## Key Research Questions and Hypotheses
 
@@ -46,9 +34,6 @@ Individual .ipynb files labeled with "phase2" have been uploaded.
 |      |                                                                                                                                                           |                                                | Hypothesis 2     | -                         | -                | Line 1253                | Line 1338         |
 | 4    | How do crude birth and death rates, life expectancy, and low-birthweight rates correlate with infant mortality and stillbirth rates across different regions and years? | Sharanya Nallapeddi                            | Hypothesis 1     | RandomForestRegressor      | 3D Surface Plot  | Line 1359                | Line 1451         |
 |      |                                                                                                                                                           |                                                | Hypothesis 2     | RandomForestRegressor      | 3D Line Plot      | Line 1462                | Line 1546         |
-
-
-
 
 ### V. The Instructions to Build the App from Source Code
 
