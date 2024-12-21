@@ -49,9 +49,9 @@
   d. sklearn
   e. plotly
   f.base64 
-5. Verify the MySQL connection by using the provided file: 50609480_50604773_50595809_50593866/app/MySQL Connection.ipynb.
-6. After verification, launch the application using the Python file compatible with the backend. The file, named "HealthFlow.py", is located at: "50609480_50604773_50595809_50593866/app/HealthFlow.py".
-7. To set a background image for the user interface, use the file path "50609480_50604773_50595809_50593866/app/DIC.jpg" in the HealthFlow.py file.
+5. Verify the MySQL connection by using the provided file: MySQL Connection.ipynb.
+6. After verification, launch the application using the Python file compatible with the backend named "HealthFlow.py".
+7. To set a background image for the user interface, use the file "DIC.jpg" in the HealthFlow.py file.
 8. Navigate to the file location in the command prompt and run the application using the command:
    streamlit run path/to/HealthFlow.py
 
