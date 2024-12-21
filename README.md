@@ -1,7 +1,7 @@
-## Topic: Leveraging health data to predict infant survival and wellbeing from pregnancy to early childhood.
+### Topic: Leveraging health data to predict infant survival and wellbeing from pregnancy to early childhood.
 ### The application empowers users to derive insights from healthcare data, run predictive analyses, and contribute new data entries. By integrating machine learning and user-friendly visualizations, the platform supports healthcare organizations, policymakers, and researchers in addressing critical maternal and infant health challenges globally.
 
-## Team Members
+### Team Members
 | Name                        | UB Number | UB Email             | 
 |:-----                       |:--------: |------:               |
 | Anchal Daga                 | 50609480  | anchalda@buffalo.edu |
@@ -9,7 +9,7 @@
 | Grace Evangelene Avula Lael | 50595809  | graceeva@buffalo.edu |
 | Sharanya Nallapeddi         | 50593866  | snallape@buffalo.edu |
 
-## Highlights 
+### Highlights 
 1. We started with extensive data collection from opensource platforms like https://www.healthdata.org/, https://databank.worldbank.org/. Later, transforming unstructured data into structured format in this code involved several steps. The code demonstrates advanced feature engineering by creating new columns based on domain-specific logic and inter-variable relationships. Derived metrics, such as the Birth-Death Ratio and Infant Mortality Rate to Birth Rate Ratio, are constructed using arithmetic operations on related columns, leveraging domain knowledge for meaningful insights. Aggregates like Immunization Efficacy are computed as the mean of immunization rates from multiple columns, while differences such as Life Expectancy Difference between genders highlight inter-variable comparisons. Outliers are handled using IQR-based capping, ensuring that extreme values do not distort analysis, while anomalies like negative or invalid values are systematically replaced or coerced into usable formats using conditions (>=0) and custom imputation strategies. Unique to this implementation is the region-aware imputation logic, where invalid values (..) are replaced based on region-specific averages or similar regions with matching metrics, ensuring contextual accuracy. These targeted transformations, combined with deterministic truncation for numerical stability, make the feature engineering process highly tailored and robust.    
 2. For the structured data, we conducted exploratory data analysis by formulating specific questions and hypotheses. Based on the relevance of columns associated with these questions, we selected various machine learning algorithms to evaluate the effectiveness of the questions and validate how well our hypotheses align with them.
 3. 
