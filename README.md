@@ -1,4 +1,4 @@
-### Topic: Leveraging health data to predict infant survival and wellbeing from pregnancy to early childhood.
+## Topic: Leveraging health data to predict infant survival and wellbeing from pregnancy to early childhood.
 ### The application empowers users to derive insights from healthcare data, run predictive analyses, and contribute new data entries. By integrating machine learning and user-friendly visualizations, the platform supports healthcare organizations, policymakers, and researchers in addressing critical maternal and infant health challenges globally.
 
 ### Team Members
