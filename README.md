@@ -10,18 +10,17 @@
 | Sharanya Nallapeddi         | 50593866  | snallape@buffalo.edu |
 
 # Highlights 
+1. We started with extensive data collection from opensource platforms like https://www.healthdata.org/, https://databank.worldbank.org/. Later, transforming unstructured data into structured format in this code involved several steps. The code demonstrates advanced feature engineering by creating new columns based on domain-specific logic and inter-variable relationships. Derived metrics, such as the Birth-Death Ratio and Infant Mortality Rate to Birth Rate Ratio, are constructed using arithmetic operations on related columns, leveraging domain knowledge for meaningful insights. Aggregates like Immunization Efficacy are computed as the mean of immunization rates from multiple columns, while differences such as Life Expectancy Difference between genders highlight inter-variable comparisons. Outliers are handled using IQR-based capping, ensuring that extreme values do not distort analysis, while anomalies like negative or invalid values are systematically replaced or coerced into usable formats using conditions (>=0) and custom imputation strategies. Unique to this implementation is the region-aware imputation logic, where invalid values (..) are replaced based on region-specific averages or similar regions with matching metrics, ensuring contextual accuracy. These targeted transformations, combined with deterministic truncation for numerical stability, make the feature engineering process highly tailored and robust.    
+2. For the structured data, we conducted exploratory data analysis by formulating specific questions and hypotheses. Based on the relevance of columns associated with these questions, we selected various machine learning algorithms to evaluate the effectiveness of the questions and validate how well our hypotheses align with them.
+3. 
 
 
 ### Questions and it's relevant Hypotheses
 
 <img width="1403" alt="image" src="https://github.com/user-attachments/assets/0597654c-156f-44f2-adc0-85f783174c57" />
 
-## Path of the Files
-- **Main File for Phase 3:** `HealthFlow.py`
-- **Background Image of the UI:** `5DIC.jpg`
-- **MySQL Script File to Run:** `Phase 3 Script.sql`
-- **File to Check the Backend MySQL Connection:** `5MySQL Connection.ipynb`
-- **CSV File Imported into MySQL Database:** `phase3_processed.csv`
+### File Paths
+<img width="779" alt="image" src="https://github.com/user-attachments/assets/9fd90150-a001-428a-9783-ce13a7ce63f9" />
 
 ### Instructions to Build the App from Source Code
 
