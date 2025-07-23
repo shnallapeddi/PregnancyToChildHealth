@@ -24,26 +24,18 @@ This interactive dashboard empowers researchers, policymakers, and healthcare pr
 
 ## Research Questions & Approaches
 
-### 1. Healthcare System Factors  
-- **Hypothesis:** More physicians, nurses, beds, and higher literacy among healthcare workers correlate with lower maternal mortality  
-- **Models:** Random Forest, SVM, Decision Tree  
-- **Visualization:** 3D Scatter Plots  
+1. **Healthcare System Impact**  
+   We examine how the availability of healthcare professionals, hospital bed capacity, and staff literacy levels influence maternal and overall mortality rates. By applying ensemble methods (Random Forest, SVM, Decision Tree) and visualizing relationships in 3D scatter plots, we uncover which system‐level factors most strongly predict better maternal outcomes.
 
-### 2. Maternal Health & Birth Attendance  
-- **Hypothesis:** Skilled birth attendance and maternal conditions (anemia, hypertension, tobacco use) drive neonatal and infant mortality  
-- **Models:** Polynomial Regression, LightGBM  
-- **Visualization:** 3D Contour & Line Plots  
+2. **Maternal Health & Birth Attendance**  
+   Focusing on skilled attendance at birth and maternal conditions—such as anemia, hypertension, and tobacco use—we model their effect on neonatal and infant mortality using Polynomial Regression and LightGBM. Contour and line‐style 3D plots reveal critical thresholds where health interventions yield the greatest benefit.
 
-### 3. Immunization, Literacy & Low Birthweight  
-- **Hypothesis:** Higher vaccine coverage and literacy reduce neonatal mortality; low birthweight prevalence increases risk  
-- **Model:** XGBoost  
-- **Visualization:** 3D Bubble Plots  
+3. **Immunization, Education & Low Birthweight**  
+   We explore the combined influence of vaccine coverage (BCG, HepB3, Pol3), health literacy, and low‐birthweight prevalence on neonatal survival. XGBoost models quantify these interactions, while 3D bubble charts highlight regions where integrated public‐health strategies can drive the largest improvements.
 
-### 4. Birth/Death Rates & Life Expectancy Trends  
-- **Hypothesis:** Extreme crude birth rates and low life expectancy correlate with higher infant mortality; trends improve over time  
-- **Model:** Random Forest Regressor  
-- **Visualization:** 3D Surface & Line Plots  
-
+4. **Birth/Death Dynamics Over Time**  
+   Analyzing crude birth and death rates alongside life expectancy trends and low‐birthweight metrics, we assess how demographic shifts correlate with infant mortality and stillbirth rates. Using Random Forest regression and 3D surface/line plots, we trace progress over years and identify regions that would benefit most from targeted resource allocation.  
+ 
 ---
 
 ## Getting Started
