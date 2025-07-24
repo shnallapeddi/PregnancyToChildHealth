@@ -2,7 +2,7 @@
 
 **Leveraging health data to predict infant survival and well-being from pregnancy to early childhood.**
 
-This interactive dashboard empowers researchers, policymakers, and healthcare professionals to explore global maternal and infant health data, run predictive analyses, and contribute new entries. By combining rigorous machine-learning models with intuitive visualizations, we illuminate the factors that drive outcomes from the first heartbeat through those critical early years—so every mother’s journey and every child’s first steps are guided by data-driven insight.
+This interactive dashboard empowers researchers, policymakers, and healthcare professionals to explore global maternal and infant health data, run predictive analyses, and contribute new entries. By combining rigorous machine-learning models with intuitive visualizations, we illuminate the factors that drive outcomes from the first heartbeat through those critical early years, so every mother’s journey and every child’s first steps are guided by data-driven insight.
 
 ---
 
@@ -28,7 +28,7 @@ This interactive dashboard empowers researchers, policymakers, and healthcare pr
    We examine how the availability of healthcare professionals, hospital bed capacity, and staff literacy levels influence maternal and overall mortality rates. By applying ensemble methods (Random Forest, SVM, Decision Tree) and visualizing relationships in 3D scatter plots, we uncover which system‐level factors most strongly predict better maternal outcomes.
 
 2. **Maternal Health & Birth Attendance**  
-   Focusing on skilled attendance at birth and maternal conditions—such as anemia, hypertension, and tobacco use—we model their effect on neonatal and infant mortality using Polynomial Regression and LightGBM. Contour and line‐style 3D plots reveal critical thresholds where health interventions yield the greatest benefit.
+   Focusing on skilled attendance at birth and maternal conditions such as anemia, hypertension, and tobacco use we model their effect on neonatal and infant mortality using Polynomial Regression and LightGBM. Contour and line‐style 3D plots reveal critical thresholds where health interventions yield the greatest benefit.
 
 3. **Immunization, Education & Low Birthweight**  
    We explore the combined influence of vaccine coverage (BCG, HepB3, Pol3), health literacy, and low‐birthweight prevalence on neonatal survival. XGBoost models quantify these interactions, while 3D bubble charts highlight regions where integrated public‐health strategies can drive the largest improvements.
