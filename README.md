@@ -1,10 +1,10 @@
-# From Bump to Baby: Maternal & Infant Health Insights
+## From Bump to Baby: Maternal & Infant Health Insights
 
 **Leveraging health data to predict infant survival and well-being from pregnancy to early childhood.**
 
 This interactive dashboard empowers researchers, healthcare professionals to explore global maternal and infant health data, run predictive analyses, and contribute new entries. By combining machine-learning models with intuitive visualizations, we illuminate the factors that drive outcomes from the first heartbeat through those critical early years, so every mother’s journey and every child’s first steps are guided by data-driven insight.
----
 
+---
 ## Key Features
 - **Interactive Filters & CRUD**  
   Select by year, region, and health category; perform lookup, add, modify, or remove data entries.
