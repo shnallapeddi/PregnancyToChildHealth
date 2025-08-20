@@ -15,7 +15,7 @@ If the Space is sleeping, click Restart this Space; it will wake and load the ap
 4. Behind the Algorithms – readable explainers for the algorithms, with formulas and short references.
 
 ### Data
-The app loads phase3_processed.csv (cached) as its primary dataset.
+The app loads processed.csv (cached) as its primary dataset.
 
 ### How to use the live demo
 Open the Space and let it wake if sleeping; you’ll land on Insights Hub. Use the large Explore / Predict / Contribute / Visualize buttons to jump to the working tabs.
