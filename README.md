@@ -35,9 +35,9 @@ pip install -r requirements.txt
 streamlit run app.py
 
 Notes & tips
-a. If filters appear empty, first choose All in “Filter by Category,” then refine.
-b. Some CRUD actions are UI-level for exploration; the public Space does not provide persistent writes to a database.
-c. For best performance, let the app finish loading cached data before running models.
+1. If filters appear empty, first choose All in “Filter by Category,” then refine.
+2. Some CRUD actions are UI-level for exploration; the public Space does not provide persistent writes to a database.
+3. For best performance, let the app finish loading cached data before running models.
 
 
 
