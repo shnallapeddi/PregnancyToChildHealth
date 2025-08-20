@@ -2,40 +2,46 @@
 
 **Leveraging health data to predict infant survival and well-being from pregnancy to early childhood.**
 
-This interactive dashboard empowers researchers, healthcare professionals to explore global maternal and infant health data, run predictive analyses, and contribute new entries. By combining machine-learning models with intuitive visualizations, we illuminate the factors that drive outcomes from the first heartbeat through those critical early years, so every mother’s journey and every child’s first steps are guided by data-driven insight.
+A Streamlit app that turns global maternal–infant health data into interactive insights, forecasts, and explainable visuals. It includes filterable dashboards, CRUD-style data editing, and a “behind the algorithms” section that explains the ML you run in the app. The Space is published on Hugging Face.
 
----
-## Key Features
-- **Interactive Filters & CRUD**  
-  Select by year, region, and health category; perform lookup, add, modify, or remove data entries.
-- **Predictive Modeling**  
-  Random Forest • SVM • Decision Tree • Polynomial Regression • LightGBM • XGBoost
-- **3D Visualizations**  
-  Scatter • Contour • Line • Bubble • Surface plots for comprehensive insights
-- **User Contributions**  
-  Seamlessly add or refine records to keep the dataset up to date
----
-## Research Questions & Hypothesis
-1. **Healthcare System Impact**  
-   We examine how the availability of healthcare professionals, hospital bed capacity, and staff literacy levels influence maternal and overall mortality rates. By applying ensemble methods (Random Forest, SVM, Decision Tree) and visualizing relationships in 3D scatter plots, we uncover which system‐level factors most strongly predict better maternal outcomes.
-2. **Maternal Health & Birth Attendance**  
-   Focusing on skilled attendance at birth and maternal conditions such as anemia, hypertension, and tobacco use we model their effect on neonatal and infant mortality using Polynomial Regression and LightGBM. Contour and line‐style 3D plots reveal critical thresholds where health interventions yield the greatest benefit.
-3. **Immunization, Education & Low Birthweight**  
-   We explore the combined influence of vaccine coverage (BCG, HepB3, Pol3), health literacy, and low‐birthweight prevalence on neonatal survival. XGBoost models quantify these interactions, while 3D bubble charts highlight regions where integrated public‐health strategies can drive the largest improvements.
-4. **Birth/Death Dynamics Over Time**  
-   Analyzing crude birth and death rates alongside life expectancy trends and low‐birthweight metrics, we assess how demographic shifts correlate with infant mortality and stillbirth rates. Using Random Forest regression and 3D surface/line plots, we trace progress over years and identify regions that would benefit most from targeted resource allocation.  
----
-## Getting Started
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/shnallapeddi/PregnancyToChildHealth.git
-   cd PregnancyToChildHealth
-2. **Install dependencies**
-   pip install -r requirements.txt
-3. **Run the application**
-   streamlit run HealthFlow.py
- ---
+### Live demo
+Hugging Face Space: https://huggingface.co/spaces/snallapeddi/PregnancyToChildHealth
+If the Space is sleeping, click Restart this Space; it will wake and load the app.
 
-## Live Demo
-Access the live application here:
-https://huggingface.co/spaces/snallapeddi/PregnancyToChildHealth
+### What’s inside
+### Tabs / Navigation
+
+1. Insights Hub – landing page with quick links and short video teasers for explore/predict/visualize actions. Buttons jump to the working tabs.
+2. Global Health at a Glance – filter by Year, Region, and Health Category (Health Resources, Maternal Data, Infant Health) and view/adjust data via a CRUD menu (Lookup / Add / Modify / Remove).
+3. Hypotheses in Action – run ML models (Random Forest, Decision Tree, plus other options described) and see predictions, feature importances, and metrics (R², MAE, RMSE) with interactive Plotly charts.
+4. Behind the Algorithms – readable explainers for the algorithms, with formulas and short references.
+
+### Data
+The app loads phase3_processed.csv (cached) as its primary dataset.
+
+### How to use the live demo
+
+Open the Space and let it wake if sleeping; you’ll land on Insights Hub. Use the large Explore / Predict / Contribute / Visualize buttons to jump to the working tabs.
+
+1. In Global Health at a Glance, set Year, Region, and Health Category in the sidebar to slice the data. Use the CRUD Operations dropdown for Lookup, Add Entry, Modify Entry, or Remove Entry; follow the on-screen forms and confirmations. (Edits in the public demo are session-level and not meant as permanent writes.)
+2. Switch to Hypotheses in Action, choose a target (e.g., Neonatal Mortality Rate), select a model (e.g., Random Forest or Decision Tree), and click Run Prediction. Inspect metrics (R², MAE, RMSE), feature importances, and interactive charts.
+3. Visit Behind the Algorithms for short explanations, formulas, and links if you want the math story behind the models.
+
+### Run locally
+# 1) Clone
+git clone https://huggingface.co/spaces/snallapeddi/PregnancyToChildHealth
+cd PregnancyToChildHealth
+# 2) Create env (Python 3.10+ recommended)
+python -m venv .venv && source .venv/bin/activate  # on Windows: .venv\Scripts\activat
+# 3) Install
+pip install -r requirements.txt
+# 4) Run
+streamlit run app.py
+
+Notes & tips
+a. If filters appear empty, first choose All in “Filter by Category,” then refine.
+b. Some CRUD actions are UI-level for exploration; the public Space does not provide persistent writes to a database.
+c. For best performance, let the app finish loading cached data before running models.
+
+
+
