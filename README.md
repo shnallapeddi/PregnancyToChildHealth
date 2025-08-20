@@ -28,14 +28,14 @@ Open the Space and let it wake if sleeping; you’ll land on Insights Hub. Use t
 3. Visit Behind the Algorithms for short explanations, formulas, and links if you want the math story behind the models.
 
 ### Run locally
-# 1) Clone
+#### 1) Clone
 git clone https://huggingface.co/spaces/snallapeddi/PregnancyToChildHealth
 cd PregnancyToChildHealth
-# 2) Create env (Python 3.10+ recommended)
+#### 2) Create env (Python 3.10+ recommended)
 python -m venv .venv && source .venv/bin/activate  # on Windows: .venv\Scripts\activat
-# 3) Install
+#### 3) Install
 pip install -r requirements.txt
-# 4) Run
+#### 4) Run
 streamlit run app.py
 
 Notes & tips
